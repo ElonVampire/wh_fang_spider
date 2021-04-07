@@ -7,7 +7,7 @@ import json
 
 path = os.path.dirname(os.getcwd())
 # 此处需要ak，ak申请地址：https://lbs.amap.com/dev/key/app
-ak = "A3dvIrQdBlno8rDqVHf6yF2TqNwdvrqs"
+ak = "" #使用自己的ak，注意认证开发者，这样一天有30万次的接口访问量
 
 headers = {
     'X-Requested-With': 'XMLHttpRequest',
